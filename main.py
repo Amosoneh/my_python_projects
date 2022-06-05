@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 x_int = 0
 while x_int < 10:
     print(x_int, end=' ')
@@ -7,7 +6,7 @@ while x_int < 10:
 
 print()
 print("Final value of x_int: ", x_int)
-=======
+
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -24,4 +23,4 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
->>>>>>> c3e3075 (commit)
+
