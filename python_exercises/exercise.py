@@ -42,7 +42,19 @@ import string
 # print('Float is {:<5.3e}'.format(float))
 
 
+def prime_num():
+    num_list = []
+    for num in range(1, 101):
+        count = 0
+        for i in range(1, num):
+            if num % i == 0:
+                count += 1
+        if count == 1:
+            num_list.append(num)
+    return num_list
 
+
+print(prime_num())
 
 
 
