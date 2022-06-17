@@ -1,12 +1,4 @@
 import string
-# x_int = 0
-# while x_int < 10:
-#     print(x_int, end=' ')
-#
-#     x_int += 1
-#
-# print()
-# print("Final value of x_int: ", x_int)
 #
 #
 # for n in range(1, 101):
@@ -38,12 +30,6 @@ print(b.translate(str.maketrans('01', '10')))
 
 x = string.ascii_letters
 print(x)
-
-
-
-
-
-
 
 
 # numbers = [22, 33, 12, 54, 32]
