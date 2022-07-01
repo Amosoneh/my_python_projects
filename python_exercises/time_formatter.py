@@ -5,15 +5,15 @@ def time_formatter(time: str):
     second = new_time[2]
     ss = second[:2]
     am_pm = second[-2:]
-    if am_pm == 'AM' and hour == 12:
+    if am_pm == 'AM' or 'am' and hour == 12:
         hour = 0
-    elif am_pm == 'PM' and hour < 12:
+    elif am_pm == 'PM' or "pm" and hour < 12:
         hour += 12
     time_2 = str(hour) + ':' + minute + ':' + ss
     return time_2
 
 
-a = '11:33:23PM'
+a = input("Enter time (hh:mm:ss): ")
 print(time_formatter(a))
 
 
